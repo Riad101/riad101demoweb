@@ -1,0 +1,112 @@
+body{
+    padding: 20px;
+    margin: 1%;
+}
+nav a{
+    display: inline-block;
+    background-color: rgba(247, 242, 242, 0.459);
+    text-decoration: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    margin: 50px;
+    padding: 20px 0px 0px 0px;
+}
+.active{
+    background-color: rgb(247, 242, 242);
+
+}
+header{
+    background-color: rgb(247, 242, 242);
+    background-image: url('../images/flywheel.jpg');
+    text-align: center;
+    padding: 2%;
+    height: 200px;
+    color: rgb(247, 242, 242);
+    background-size: 100%;
+}
+h1{
+    text-transform: uppercase;
+}
+.left, .right{
+    float: left;
+    display: inline;
+}
+.left{
+    background-color: #86942a;
+    padding: 1%;
+    align-items: center; 
+    width: 270px;
+    float: left;    
+}
+.right{
+    width: 74%;
+    display: inline-block;
+    padding-left: 2%;
+}
+img{
+    width: 200px;
+    margin: 30px;
+    border: solid 2px rgb(1,1,1);    
+    display: inline;
+    
+}
+/*table style*/
+/* 1. The table should be styled using at least four properties*/
+table{
+    padding: 2%;
+    margin: 0 auto;
+    line-height: 45px;
+    width: 60%;
+    padding-bottom:3%;
+
+}
+/* 2.The table headings should have a border, background color, 
+and at least one other property.*/
+
+th{
+    background-color: #86942a;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid #e5ff38c0;
+}
+
+/*Make the table text in two columns to the right centered*/
+th, tr td {
+    text-align: center;
+}
+
+/*Make the table text in the column to the left left-aligned*/
+th:first-child, tr td:first-child {
+    text-align: left;
+}
+
+/* Set opacity of table rows*/
+tr td {
+    opacity: 0.6;
+}
+
+
+/*Change opacity of table rows when hovered over*/
+tr:hover td {
+    opacity: 1;
+    color: #339933;
+    font-weight: bold;
+    font-size:100%;
+    line-height: 60px;
+}
+
+/*Styling the table elements*/
+td {
+    background-color: #90EE90;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 90%;
+    border-bottom: 2px solid #ffffff;
+}
+
+
+     
